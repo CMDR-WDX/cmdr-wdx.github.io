@@ -31,7 +31,7 @@ directory, from which OS-level Hardlinks are copied over to the respective locat
   > While Linux users are a minority, they are still part of the community.
   > As the game runs on Linux without any major issues assuming you have the right Proton version set up, there is no reason to exclude them here.
   >
-  > Hardlinks / Multireferences to Inodes are supported by both Window's NTFS and all major Linux Filesytems.
+  > Hardlinks / Multireferences to Inodes are supported by both Window's NTFS and all major Linux Filesystems.
 
 - [x] **Must require minimal permissions**
   > Symbolic Links were a preferred choice over Hardlinks, however, Windows' support for Symlinks limits the use to users with
@@ -190,9 +190,9 @@ graph TD
     RiceFix ---> A:{{Only$Language}};
     Modded ---> A:{{Only$Language}};
 
-    classDef leafs fill:#522;
-    class NoCutscenes leafs;
-    class Only$Language leafs;
+    classDef leaves fill:#522;
+    class NoCutscenes leaves;
+    class Only$Language leaves;
 ```
 
 #### EvolveFilesLegacy

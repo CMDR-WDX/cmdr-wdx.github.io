@@ -35,7 +35,7 @@ Some projects I have worked on or am working on:
     The Backend running `gankers.org`. Written in Rust and using Postgres as the backing data-layer.
 
     The Backend contains both a REST/HTTP component implemented with `axum` and a gRPC Server with `prost`/`tonic`.
-    Interactions with the DB are done using the magnificient `sqlx` crate.
+    Interactions with the DB are done using the magnificent `sqlx` crate.
 
 -   ### EDSY-Shortener :fontawesome-brands-rust: :fontawesome-brands-typescript: :fontawesome-brands-postgresql:
     [:lucide-globe-2: Demo](https://ships.gankers.org){ .md-button .md-button--primary }
@@ -66,7 +66,7 @@ Some projects I have worked on or am working on:
 
     EDPF started as an attempt to improve upon EDMC by using Tauri instead of Python/tk. It got really far, to the point of being able to load plugins at runtime and have them receive journal events.
 
-    However, due to race conditions that were hard to debug, expecially on webkitgtk, the project got put on hold, while EDMC made major improvements in what they plan for Plugin Registries.
+    However, due to race conditions that were hard to debug, especially on webkitgtk, the project got put on hold, while EDMC made major improvements in what they plan for Plugin Registries.
 
     I urge you to read the internal documentation, as there is loads to learn about how one can (ab)use Tauri by turning it into a Plugin runner.
 

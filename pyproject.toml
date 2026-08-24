@@ -2,7 +2,6 @@
 name = "cmdr-wdx-github-io"
 version = "0.1.0"
 description = "Add your description here"
-readme = "README.md"
 authors = [
     { name = "CMDR-WDX", email = "83889860+CMDR-WDX@users.noreply.github.com" },
 ]

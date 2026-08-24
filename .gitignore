@@ -1,0 +1,16 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+
+# Virtual environments
+.venv/
+
+# Zensical
+site/
+.cache/
+
+# OS / editors
+.DS_Store
+.idea/
+.vscode/

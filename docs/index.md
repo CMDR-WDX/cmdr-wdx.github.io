@@ -12,8 +12,6 @@ Find the relevant pages on the sidebar.
 
 Some projects I have worked on or am working on:
 
-## :lucide-gamepad-2: Elite Dangerous
-
 <div class="grid cards" markdown>
 
 -   ### Gankers.org :fontawesome-brands-react: :fontawesome-brands-typescript:
@@ -26,6 +24,14 @@ Some projects I have worked on or am working on:
     The Data is entirely user-driven and at a quality where it is used as an authoritative source by PVPers, Gankers, PVErs and Carebears alike.
 
     Used and trusted by over 200 CMDRs.
+
+-   ### Evolve Launcher :fontawesome-brands-rust: :fontawesome-brands-vuejs: :fontawesome-brands-typescript:
+    [:lucide-book: Docs](https://evolvelauncher.github.io){ .md-button .md-button--primary  }
+    [:fontawesome-brands-github: GitHub Org](https://github.com/EvolveLauncher){ .md-button }
+
+    !!! tip "Conception Phase"
+
+    Evolve Launcher is a system application made with Tauri, made to run both on Linux and Windows, with the purpose of simplifying the installation process to get Evolve Legacy running.
 
 -   ### Gankers.org API :fontawesome-brands-rust: :fontawesome-brands-postgresql:
     [:fontawesome-brands-gitlab: Code](https://gitlab.com/gankers/gankers-backend){ .md-button  }

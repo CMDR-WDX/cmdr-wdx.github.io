@@ -25,14 +25,6 @@ Some projects I have worked on or am working on:
 
     Used and trusted by over 200 CMDRs.
 
--   ### Evolve Launcher :fontawesome-brands-rust: :fontawesome-brands-vuejs: :fontawesome-brands-typescript:
-    [:lucide-book: Docs](https://evolvelauncher.github.io){ .md-button .md-button--primary  }
-    [:fontawesome-brands-github: GitHub Org](https://github.com/EvolveLauncher){ .md-button }
-
-    !!! tip "Conception Phase"
-
-    Evolve Launcher is a system application made with Tauri, made to run both on Linux and Windows, with the purpose of simplifying the installation process to get Evolve Legacy running.
-
 -   ### Gankers.org API :fontawesome-brands-rust: :fontawesome-brands-postgresql:
     [:fontawesome-brands-gitlab: Code](https://gitlab.com/gankers/gankers-backend){ .md-button  }
 
@@ -62,6 +54,33 @@ Some projects I have worked on or am working on:
 
     It is run by many players and submits kills and deaths to the Gankers Backend.
 
+-   ### elite-pip-macro :fontawesome-brands-rust: :fontawesome-brands-linux:
+    [:fontawesome-brands-github: Code](https://github.com/CMDR-WDX/elite-pip-macro/){ .md-button  }
+    !!! success "Active Maintenance"
+
+    Enables pip dump macros for Elite: Dangerous on Linux. Works on both X11 and Wayland using Portals.
+
+-   ### EDMC_Massacre :fontawesome-brands-python:
+    [:fontawesome-brands-youtube: Demo](https://www.youtube.com/watch?v=EA4o3PSXSFk){ .md-button  }
+    [:fontawesome-brands-github: Code](https://github.com/CMDR-WDX/EDMC-Massacres){ .md-button  }
+    !!! warning "Finished / No Active Support"
+
+    Helper-Plugin that helps players with more efficiently stacking Massacre-type missions in Elite: Dangerous. See attached Demo video for more context.
+
+    No longer being worked on due to loss of interest, but also due to the existing version being "finished".
+
+    If you are interested in how it works or how to stack Massacre Missions, please don't hesitate to look at the Demo linked above.
+
+-   ### elite-beepbeep :fontawesome-brands-rust: :fontawesome-brands-python:
+
+    [:fontawesome-brands-github: Code (Rust/Linux)](https://github.com/CMDR-WDX/elite-beep-beep){ .md-button  }
+    [:fontawesome-brands-github: Code (Python/Windows)](https://github.com/CMDR-WDX/elite-beepbeep){ .md-button  }
+    !!! warning "Finished / No Active Support"
+
+    Port of Jonus' Beep Beep utility, detecting players in the current game instance based on the History File written by the game.
+
+    This code is deemed abandoned. OS-agnostic Beep Beep Functionality has been bundled directly into EDMC-PvpBot, hence there is little reason to use this tooling.
+
 -   ### elite-dangerous-plugin-framework :fontawesome-brands-rust:
     [:lucide-book: Docs](https://elite-dangerous-plugin-framework.github.io/){ .md-button .md-button--primary  }
     [:fontawesome-brands-github: Code](https://github.com/Elite-Dangerous-Plugin-Framework/elite-dangerous-plugin-framework){ .md-button  }
@@ -75,16 +94,5 @@ Some projects I have worked on or am working on:
     However, due to race conditions that were hard to debug, especially on webkitgtk, the project got put on hold, while EDMC made major improvements in what they plan for Plugin Registries.
 
     I urge you to read the internal documentation, as there is loads to learn about how one can (ab)use Tauri by turning it into a Plugin runner.
-
--   ### EDMC_Massacre :fontawesome-brands-python:
-    [:fontawesome-brands-youtube: Demo](https://www.youtube.com/watch?v=EA4o3PSXSFk){ .md-button  }
-    [:fontawesome-brands-github: Code](https://github.com/CMDR-WDX/EDMC-Massacres){ .md-button  }
-    !!! warning "Finished / No Active Support"
-
-    Helper-Plugin that helps players with more efficiently stacking Massacre-type missions in Elite: Dangerous. See attached Demo video for more context.
-
-    No longer being worked on due to loss of interest, but also due to the existing version being "finished".
-
-    If you are interested in how it works or how to stack Massacre Missions, please don't hesitate to look at the Demo linked above.
 
 </div>

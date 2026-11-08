@@ -78,6 +78,7 @@ toggle.name = "Switch to system preference"
 icon = "fontawesome/brands/github"
 link = "https://github.com/cmdr-wdx"
 
+[project.markdown_extensions.zensical.extensions.glightbox]
 
 [project.markdown_extensions]
 abbr = {}
@@ -109,3 +110,4 @@ pymdownx.tabbed.alternate_style = true
 pymdownx.tabbed.combine_header_slug = true
 pymdownx.tasklist.custom_checkbox = true
 pymdownx.tilde = {}
+
